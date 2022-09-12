@@ -217,7 +217,7 @@ button{
 
 /* start section 3*/
 .third{
-    padding-top: 20px;
+    padding: 40px 0px 40px 0px;
 }
 
 .container-box{
@@ -238,4 +238,9 @@ button{
 
 .descrizione-box li{
     padding: 0px 0px 25px 0px;
+}
+
+/* start section 4 */
+.fourth{
+    padding: 70px 0px 50px 0px;
 }
