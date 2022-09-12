@@ -129,7 +129,7 @@ button{
 
 /* start card */
 .card {
-    width: 100%;
+    width: calc(100% /3);
     display: flex;
     flex-direction: column;
     padding-right: 30px;
@@ -147,8 +147,8 @@ button{
     flex-direction: column;
     align-content: center;
     border: 1px solid var(--gray);
-    
-    padding: 10px 10px;
+    height: 100%;
+    padding-bottom: 60px;
 }
 
 .descrizione{
@@ -163,4 +163,20 @@ button{
 .container-card{
     display: flex;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
+
+.card-big {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
