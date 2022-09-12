@@ -26,6 +26,7 @@ header nav{
     top: 0;
     left: 0;
     z-index: 1000;
+    background-color: var(--white);
 }
 
 li{
@@ -48,4 +49,41 @@ div img{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+/* start container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* start hero */
+#hero{
+    background-color: var(--lightblu);
+    padding-top: 80px;
+}
+#hero .container{
+    position: relative;
+    bottom: -80px;
+}
+
+h1{
+    font-size: 75px;
+}
+.flex{
+    display: flex;
+}
+
+.w-30{
+    width: 30%;
+    padding-top: 30px;
+}
+
+.w-70{
+    width: 70%;
+    padding-top: 30px;
+}
+
+#hero img{
+    width: 100%;
 }
