@@ -11,6 +11,7 @@
     --lightblu: #B4D0E7;
     --blu: #0061FF;
     --burgundy: #61082B;
+    --gray: #DBDBDD;
 }
 /* start body */
 body{
@@ -115,27 +116,28 @@ button{
 .container-small{
     max-width: 1000px;
     margin: 0 auto;
-    background-color: red;
 }
 
 .first{
     padding-top: 160px;
 }
 
+.container-small h2{
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
 /* start card */
 .card {
-    width: calc((100% - 60px) / 3);
-    height: 500px;
-    background-color: rgba(0, 0, 255, 0.404);
-    margin: 30px 20px 0 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .testa{
-    background-color: white;
     text-align: center;
-    border: 1px solid black;
+    border: solid var(--gray);
+    border-width: 1px 1px 0px 1px;
     padding: 8px;
 }
 
@@ -143,14 +145,22 @@ button{
     display: flex;
     flex-direction: column;
     align-content: center;
-    height: 500px;
-    background-color: white;
-    border: 1px solid black;
-    margin: 0 10px;
-    padding-top: 10px;
+    border: 1px solid var(--gray);
+    
+    padding: 10px 10px;
 }
 
 .descrizione{
     display: flex;
     flex-direction: column;
+}
+
+.descrizione li{
+    padding-top: 30px;
+}
+
+.container-card{
+    display: flex;
+    width: calc(100% / 3);
+    padding-top: 30px;
 }
