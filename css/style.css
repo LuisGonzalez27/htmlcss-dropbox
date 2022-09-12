@@ -214,3 +214,27 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
+
+/* start section 3*/
+.third{
+    padding-top: 20px;
+}
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% /3);
+    display: flex;
+    flex-direction: column;
+}
+
+.box img{
+    width: 100%;
+}
+
+.descrizione-box li{
+    padding-top: 30px;
+}
