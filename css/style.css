@@ -51,6 +51,12 @@ div img{
     align-items: center;
 }
 
+.column{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 /* start container */
 .container{
     max-width: 1200px;
@@ -70,6 +76,7 @@ div img{
 h1{
     font-size: 75px;
 }
+
 .flex{
     display: flex;
 }
@@ -77,6 +84,7 @@ h1{
 .w-30{
     width: 30%;
     padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .w-70{
@@ -86,4 +94,19 @@ h1{
 
 #hero img{
     width: 100%;
+}
+
+button{
+    background-color: var(--blu);
+    border: none;
+    color: var(--white);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#arrow-down{
+    font-size: 40px;
 }
