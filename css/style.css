@@ -408,5 +408,44 @@ span{
     cursor: pointer;
 }
 /* start section 7 */
+.seventh{
+    padding: 70px 0px 50px 0px;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-right-style: none;
+    border-left-style: none;
+    padding: 25px 0px 25px 0px;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    transform: scaleX(-1);
+}
+
+summary b {
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    transform: scaleX(-1);
+}
+
+details>summary{
+   list-style: none;
+}
+
+summary::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    padding-left: 30px;
+}
+
+details[open] summary:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f077";
+}
 
 /* start footer */
