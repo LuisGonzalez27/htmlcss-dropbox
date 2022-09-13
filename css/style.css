@@ -23,6 +23,8 @@
     --sq6: #B4D0E7;
     --sq7: #0D2481;
     --sq8: #FFD830;
+    --bar: #B4D0E7;
+    --bar-h2: #61082B;
 }
 /* start body */
 body{
@@ -379,8 +381,32 @@ span{
 .center div{
     padding: 45px;
 }
-/* start section 6 */
 
+/* start section 6 */
+.sixth{
+    min-height: 50px;
+    background-color: var(--bar);
+}
+
+.bar{
+    justify-content: space-between;
+    padding: 136px 0px 50px 0px;
+}
+
+.bar div h2{
+    color: var(--bar-h2);
+}
+
+.button-gray{
+    background-color: var(--white);
+    border: 1px solid var(--gray-light);
+    color: var(--black);
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
 /* start section 7 */
 
 /* start footer */
