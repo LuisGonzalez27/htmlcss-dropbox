@@ -366,6 +366,19 @@ span{
     left: 50%;
     transform: translate(-50%, -50%)
 }
+
+/* contenitore centrale */
+.center img{
+    width: 60%;
+    padding: 45px;
+}
+.center hr{
+    width: 15%;
+    margin-left: 45px;
+}
+.center div{
+    padding: 45px;
+}
 /* start section 6 */
 
 /* start section 7 */
