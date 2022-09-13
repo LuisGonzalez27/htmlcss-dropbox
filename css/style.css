@@ -455,6 +455,11 @@ details[open] summary:after {
 footer{
     background-color: var(--black);
     color: var(--white);
+    padding-top: 100px;
+}
+
+footer nav {
+    padding-bottom: 100px;
 }
 
 footer li{
