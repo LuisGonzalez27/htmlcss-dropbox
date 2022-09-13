@@ -452,3 +452,20 @@ details[open] summary:after {
     border-style: none;
 }
 /* start footer */
+footer{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+footer li{
+    padding: 0;
+}
+
+footer li a{
+    color: var(--white);
+}
+
+footer .column-footer {
+    flex-basis: calc(100% / 5);
+    line-height: 2;
+}
