@@ -184,7 +184,7 @@ span{
 }
 
 /* button in card */
-button{
+.full-button{
     width: 100%;
 }
 
