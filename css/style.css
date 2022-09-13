@@ -12,6 +12,7 @@
     --blu: #0061FF;
     --burgundy: #61082B;
     --gray: #DBDBDD;
+    --gray-dark: gray;
 }
 /* start body */
 body{
@@ -151,13 +152,30 @@ button{
     padding-bottom: 60px;
 }
 
+.tipo{
+    padding: 36px 0px 25px 0px;
+}
+
+.tipo ul li{
+    padding-bottom: 10px;
+}
+
+.prezzo{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mese{
+    font-size: 14px;
+    color: var(--gray-dark);
+}
 .descrizione{
     display: flex;
     flex-direction: column;
 }
 
 .descrizione li{
-    padding-top: 30px;
+    padding-top: 25px;
     display: flex;
 }
 
@@ -171,14 +189,23 @@ button{
 }
 
 /* link acquisto */
-#acquista{
+.acquista{
     color: var(--blu);
     cursor: pointer;
     text-decoration: underline;
 }
 
-#linea{
+.linea{
     width: 20%;
+}
+
+/* color check */
+.fa-check{
+    color: var(--blu);
+}
+
+.salienti{
+    padding-top: 30px;
 }
 
 .container-card{
