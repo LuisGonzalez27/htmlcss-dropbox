@@ -478,3 +478,23 @@ footer .column-footer {
     flex-basis: calc(100% / 5);
     line-height: 2;
 }
+
+/* start language choice*/
+footer select {
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer section div {
+    display: inline-block;
+    color: var(--white);
+    padding: 50px 0;
+
+}
+
+.container hr{
+    width: 13%;
+}
