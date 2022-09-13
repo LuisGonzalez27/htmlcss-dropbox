@@ -448,4 +448,7 @@ details[open] summary:after {
     content: "\f077";
 }
 
+#none-border {
+    border-style: none;
+}
 /* start footer */
