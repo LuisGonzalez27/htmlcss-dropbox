@@ -321,9 +321,11 @@ span{
 .square{
     width: 50%;
     height: 50%;
+    position: relative;
 }
 .sq1{
-    background-color: var(--sq1);
+    background-color: var(--sq1-dark);
+    border: 10px solid var(--sq1);
 }
 
 .sq2{
@@ -352,6 +354,17 @@ span{
 
 .sq8{
     background-color: var(--sq8);
+}
+
+/* logo centering */
+.square img{
+    filter:invert(1);
+    width: 50%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 /* start section 6 */
 
