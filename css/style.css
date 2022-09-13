@@ -153,6 +153,9 @@ button:hover{
     font-size: 40px;
 }
 
+.fattura{
+    padding-right: 50px;
+}
 /* start card */
 .card {
     width: calc(100% /3);
