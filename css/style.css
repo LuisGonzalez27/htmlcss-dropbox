@@ -158,6 +158,27 @@ button{
 
 .descrizione li{
     padding-top: 30px;
+    display: flex;
+}
+
+span{
+    margin-left: 10px;
+}
+
+/* button in card */
+button{
+    width: 100%;
+}
+
+/* link acquisto */
+#acquista{
+    color: var(--blu);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#linea{
+    width: 20%;
 }
 
 .container-card{
@@ -244,3 +265,11 @@ button{
 .fourth{
     padding: 70px 0px 50px 0px;
 }
+
+/* start section 5 */
+
+/* start section 6 */
+
+/* start section 7 */
+
+/* start footer */
