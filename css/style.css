@@ -41,6 +41,8 @@ header nav{
     left: 0;
     z-index: 1000;
     background-color: var(--white);
+    padding: 0 15px;
+    border-bottom: 1px solid #e4e1de;
 }
 
 li{
@@ -55,6 +57,16 @@ li a{
 .flexbox div img{
     padding: 0 20px;
     cursor: pointer;
+}
+
+#navigation li{
+    height: 80px;
+    line-height: 80px;
+    transition-duration: 0.4s;
+}
+
+#navigation li:hover{
+    background-color: #e4e1de;
 }
 
 /* start flexbox*/
