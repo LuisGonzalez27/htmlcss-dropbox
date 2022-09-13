@@ -126,6 +126,14 @@ button:hover{
     box-shadow:  -2px -2px 4px #1c2b43, 2px 2px 4px #2c4369;
 }
 
+.freccia{
+    color: var(--black); 
+}
+
+.freccia:hover {
+    color: var(--blu);
+}
+
 #arrow-down{
     font-size: 40px;
 }
