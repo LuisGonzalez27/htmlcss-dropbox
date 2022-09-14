@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <title>Dropbox</title>
 </head>
 <body>
@@ -18,15 +21,15 @@
                 <img src="./img/logo-small.png" alt="logo Dropbox">
                 <!-- menu nav -->
                 <ul class="flexbox">
-                    <li><a href="#">Perch&#232; Dropbox</a></li>
-                    <li><a href="#">Funzioni</a></li>
-                    <li><a href="#">Piani e Prezzi</a></li>
+                    <li><a href="#perche">Perch&#232; Dropbox</a></li>
+                    <li><a href="#funzioni">Funzioni</a></li>
+                    <li><a href="#fatturazzione">Piani e Prezzi</a></li>
                  </ul>
             </div>
             <div class="flexbox">
                 <ul class="flexbox">
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta &lcaron;ufficcio vendite</a></li>
+                    <li><a href="#supporto">Supporto</a></li>
+                    <li><a href="#ufficio">Contatta &lcaron;ufficcio vendite</a></li>
                     <li><a href="#">Accedi</a></li>
                 </ul>
                 <button class="button btn-blu">Inizia</button>
@@ -42,7 +45,7 @@
                         <button class="button btn-blu">Inizia la tua prova gratuita</button>
                         <p>Anulla in qualsiasi momento</p>
                         <div>
-                            <a href="#Fatturazzione" class="freccia">
+                            <a href="#fatturazzione" class="freccia">
                                 <i class="fa-solid fa-arrow-down" id="arrow-down"></i>
                             </a>
                         </div>
@@ -57,7 +60,7 @@
     <!-- main with 7 section -->
     <main>
         <!-- section 1 -->
-        <section class="first" id="Fatturazzione">
+        <section class="first" id="fatturazzione">
             <div class="container-small">
                 <h2>Trova il piano Business che fa per te</h2>
                 <div class="flex">
@@ -147,7 +150,7 @@
                         </div>
                     </div>
 
-                    <div class="card-big">
+                    <div class="card-big" id="ufficio">
                         <div class="testa">
                             <i class="fa-solid fa-building"></i><span>Team</span>
                         </div>
@@ -181,7 +184,7 @@
             </div>
         </section>
         <!-- section 3 -->
-        <section class="third">
+        <section class="third" id="funzioni">
             <div class="container-small">
                 <h2>Esegui pi&ugrave; operazioni con Dropbox Business</h2>
                 <!-- box -->
@@ -304,7 +307,7 @@
             </div>
         </section>
         <!-- section 7 -->
-        <section class="seventh">
+        <section class="seventh" id="perche">
             <div class="container-small">
                 <h2>Domande frequenti</h2>
                 <details>
@@ -331,7 +334,7 @@
         </section>
     </main>
     <!-- footer -->
-    <footer>
+    <footer id="supporto">
         <nav class="container flex">
             <div class="column-footer">
                 <h3>Dropbox</h3>
