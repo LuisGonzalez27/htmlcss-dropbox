@@ -25,6 +25,7 @@
     --sq8: #FFD830;
     --bar: #B4D0E7;
     --bar-h2: #61082B;
+    --dropbox: #e4e1de;
 }
 /* html */
 html {
@@ -42,7 +43,7 @@ header nav{
     z-index: 1000;
     background-color: var(--white);
     padding: 0 15px;
-    border-bottom: 1px solid #e4e1de;
+    border-bottom: 2px solid var(--dropbox);
 }
 
 li{
@@ -66,7 +67,7 @@ li a{
 }
 
 #navigation li:hover{
-    background-color: #e4e1de;
+    background-color: var(--dropbox);
 }
 
 /* start flexbox*/
@@ -162,6 +163,7 @@ button:hover{
 
 .first{
     padding-top: 160px;
+    padding-bottom: 75px;
 }
 
 .container-small h2{
@@ -171,6 +173,7 @@ button:hover{
 
 .fattura{
     padding-right: 50px;
+
 }
 /* start card */
 .card {
@@ -193,7 +196,7 @@ button:hover{
     align-content: center;
     border: 1px solid var(--gray);
     height: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .tipo{
@@ -273,12 +276,10 @@ span{
 }
 /* start section 2 */
 .second{
-    padding-top: 80px;
+    padding: 75px 0px 75px 0px;
 }
 .w-60{
     width: 60%;
-    padding-top: 30px;
-    padding-bottom: 100px;
 }
 
 .w-60 img{
@@ -304,7 +305,7 @@ span{
 
 /* start section 3*/
 .third{
-    padding: 40px 0px 40px 0px;
+    padding: 75px 0px 75px 0px;
 }
 
 .container-box{
@@ -329,7 +330,7 @@ span{
 
 /* start section 4 */
 .fourth{
-    padding: 70px 0px 50px 0px;
+    padding: 75px 0px 150px 0px;
 }
 
 /* start section 5 */
@@ -436,14 +437,14 @@ span{
 }
 /* start section 7 */
 .seventh{
-    padding: 70px 0px 50px 0px;
+    padding: 150px 0px 150px 0px;
 }
 
 details {
     border: 1px solid #aaa;
     border-right-style: none;
     border-left-style: none;
-    padding: 25px 0px 25px 0px;
+    padding: 25px 0px 25px 0px; 
 }
 
 summary {
@@ -458,6 +459,7 @@ summary b {
     position: absolute;
     right: 6px;
     transform: scaleX(-1);
+    cursor: pointer;
 }
 
 details>summary{
@@ -468,11 +470,13 @@ summary::after {
     font-family: "Font Awesome 5 Free";
     content: "\f078";
     padding-left: 30px;
+    cursor: pointer;
 }
 
 details[open] summary:after {
     font-family: "Font Awesome 5 Free";
     content: "\f077";
+    cursor: pointer;
 }
 
 #none-border {
