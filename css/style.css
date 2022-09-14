@@ -506,6 +506,11 @@ footer .column-footer {
     line-height: 2;
 }
 
+.column-footer ul li a:hover{
+    text-decoration: underline;
+    color: var(--white);
+}
+
 /* start language choice*/
 footer select {
     background-color: var(--black);
@@ -524,4 +529,7 @@ footer section div {
 
 .container hr{
     width: 13%;
+    background-color: var(--white);
+    border-top: 1px solid var(--white);
+    border-radius: 1px;
 }
